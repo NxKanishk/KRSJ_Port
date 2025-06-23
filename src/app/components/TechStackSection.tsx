@@ -1,4 +1,4 @@
-import { Code, Database, Globe, Smartphone, Cloud, GitBranch, Palette, Server } from "lucide-react"
+import { Code, Database, Globe, GitBranch, Palette } from "lucide-react"
 
 export default function TechStackSection() {
   const technologies = [

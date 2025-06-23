@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutSection() {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -9,8 +11,8 @@ export default function AboutSection() {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
-                <img
-                  src="../photoKRSJ.jpeg"
+                <Image
+                  src="/photoKRSJ.jpeg"
                   alt="Profile Picture"
                   width={320}
                   height={320}
@@ -22,7 +24,7 @@ export default function AboutSection() {
 
           <div className="text-gray-300 space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a passionate full-stack developer with over 1 years of
+              I am a passionate full-stack developer with over 1 years of
               experience building web applications. I love turning complex
               problems into simple, beautiful designs that provide exceptional
               user experiences.
@@ -34,7 +36,7 @@ export default function AboutSection() {
               Next.js, and modern web technologies.
             </p>
             <p className="text-lg leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies,
+              When I am not coding, you can find me exploring new technologies,
               contributing to open-source projects, or sharing my knowledge
               through blog posts and mentoring other developers.
             </p>

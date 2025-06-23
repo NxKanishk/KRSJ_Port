@@ -33,9 +33,9 @@ export default function ContactSection() {
         <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-16">Get In Touch</h2>
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-semibold text-white mb-6">Let's work together</h3>
+            <h3 className="text-2xl font-semibold text-white mb-6">Let us work together</h3>
             <p className="text-gray-300 mb-8 text-lg">
-              I'm always interested in new opportunities and exciting projects. Whether you have a question or just want
+              I am always interested in new opportunities and exciting projects. Whether you have a question or just want
               to say hi, feel free to reach out!
             </p>
 
@@ -80,7 +80,7 @@ export default function ContactSection() {
               {isSubmitted ? (
                 <div className="text-center py-8">
                   <div className="bg-green-600/20 p-4 rounded-lg mb-4">
-                    <p className="text-green-400 font-medium">Thank you for your message! I'll get back to you soon.</p>
+                    <p className="text-green-400 font-medium">Thank you for your message, I will get back to you soon.</p>
                   </div>
                   <Button
                     onClick={() => setIsSubmitted(false)}

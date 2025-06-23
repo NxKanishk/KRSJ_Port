@@ -17,7 +17,7 @@ export default function HeroSection() {
     >
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
-          Hi I'm{" "}
+          Hi Myself
           <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Kanishk
           </span>
