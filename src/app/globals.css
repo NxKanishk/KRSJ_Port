@@ -123,3 +123,66 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  animation: typing 1.4s steps(7, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 40% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+/* styles/globals.css or in a module */
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  background: #111;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #4ade80; /* Tailwind's green-400 */
+  color: black;
+}
+
+.mySwiper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation-name: fadeIn;
+}
+
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 0.4; }
+}
+
+.glow-effect {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.5), 0 0 30px rgba(139, 92, 246, 0.3);
+}
+
+.animate-twinkle {
+    animation: twinkle 8s ease-in-out infinite;
+}
