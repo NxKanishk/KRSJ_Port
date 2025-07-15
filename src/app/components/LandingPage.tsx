@@ -9,7 +9,7 @@ interface LandingPageProps {
 }
 
 export default function LandingPage({ onComplete, blastVideoSrc }: LandingPageProps) {
-    const [holding, setHolding] = useState(false);
+    const [, setHolding] = useState(false);
     const [progress, setProgress] = useState(0);
     const [showVideo, setShowVideo] = useState(false);
     const holdInterval = useRef<NodeJS.Timeout | null>(null);
@@ -18,7 +18,7 @@ export default function LandingPage({ onComplete, blastVideoSrc }: LandingPagePr
     // Handle holding the button
     const startHold = () => {
         setHolding(true);
-        let startTime = Date.now();
+        const startTime = Date.now();
         holdInterval.current = setInterval(() => {
             const elapsed = Date.now() - startTime;
             const newProgress = Math.min(elapsed / progressDuration, 1);
