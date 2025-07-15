@@ -124,7 +124,8 @@ export default function ContactSection() {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white"
+                    className="w-full bg-gradient-to-r from-[#1e1b2e] to-[#6e4e9e] hover:from-[#151226] hover:to-[#8a6acb] text-white"
+
                   >
                     {isSubmitting ? (
                       "Sending..."
