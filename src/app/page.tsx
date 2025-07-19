@@ -9,6 +9,7 @@ import TechStackSection from "./components/TechStackSection";
 import ProjectSection from "./components/ProjectSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/FooterSection";
+import ChatWidget from "./components/ChatWidget";
 
 import { Suspense } from "react";
 
@@ -40,6 +41,8 @@ export default function Home() {
             </Suspense>
             <Footer />
           </main>
+
+          <ChatWidget />
         </div>
       )}
     </>
